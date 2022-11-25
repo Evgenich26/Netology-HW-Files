@@ -1,0 +1,28 @@
+[
+ {'name': 'Омлет', 'foods_count': 3, 
+ 'foods': 
+  [
+    {'name': 'Яйцо', 'count': 2, 'unit': 'шт'},
+    {'name': 'Молоко', 'count': 100, 'unit': 'мл'},
+    {'name': 'Помидор', 'count': 2, 'unit': 'шт'}
+     ]
+      },
+
+{'name': 'Утка по-пекински', 'foods_count': 4, 
+'foods': 
+[{'name': 'Утка', 'count': 1, 'unit': 'шт'}, 
+{'name': 'Вода', 'count': 2, 'unit': 'л'}, 
+{'name': 'Мед', 'count': 3, 'unit': 'ст.л'}, 
+{'name': 'Соевый соус', 'count': 60, 'unit': 'мл'}]}, 
+{'name': 'Запеченный картофель', 'foods_count': 3, 
+'foods': 
+[{'name': 'Картофель', 'count': 1, 'unit': 'кг'}, 
+{'name': 'Чеснок', 'count': 3, 'unit': 'зубч'}, 
+{'name': 'Сыр гауда', 'count': 100, 'unit': 'г'}]}, 
+{'name': 'Фахитос', 'foods_count': 5, 
+'foods': 
+[{'name': 'Говядина', 'count': 500, 'unit': 'г'}, 
+{'name': 'Перец сладкий', 'count': 1, 'unit': 'шт'}, 
+{'name': 'Лаваш', 'count': 2, 'unit': 'шт'}, 
+{'name': 'Винный уксус', 'count': 1, 'unit': 'ст.л'}, 
+{'name': 'Помидор', 'count': 2, 'unit': 'шт'}]}]
