@@ -37,3 +37,35 @@ with open('cook_book.txt', 'rt', encoding =  'utf-8') as file:
     print(get_shop_list_by_dishes(['Фахитос', 'Омлет'], 3))
              
 
+
+
+def making_list(file_name):
+    list = []
+    with open(file_name, 'rt', encoding = 'utf-8') as file:
+        counter = 0
+        for line in file:
+            if line:
+                counter += 1
+        list.append(file_name)
+        list.append(str(counter))
+    with open(file_name, 'rt', encoding='utf-8') as file:
+        text = file.read()
+        list.append(text)
+    return list
+
+def list_of_lists():
+    list_of_lists = []
+    list1 = making_list('1.txt')
+    list2 = making_list('2.txt')
+    list3 = making_list('3.txt')
+    list_of_lists.append(list1)
+    list_of_lists.append(list2)
+    list_of_lists.append(list3)
+    list_of_lists.sort(key = lambda x: x[1])
+
+    with open('result.txt', 'w', encoding="utf-8") as f:
+        for name, count, text in list_of_lists:
+            f.write(f'{name}\n{count}\n{text}\n')
+
+list_of_lists()
+
